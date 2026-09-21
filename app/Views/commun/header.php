@@ -22,25 +22,25 @@
         <div class="sidebar-content">
             <ul class="lists">
                 <li class="list">
-                    <a href="#" class="nav-link">
+                    <a href="<?php echo site_url('Presentation') ?>" class="nav-link">
                         <i class="bx bx-user icon"></i>
                         <span class="link"> Présentation </span>
                     </a>
                 </li>
                 <li class="list">
-                    <a href="#" class="nav-link">
+                    <a href="<?php echo site_url('Competence1') ?>" class="nav-link">
                         <i class="bx bx-medal icon"></i>
                         <span class="link"> Compétence 1 </span>
                     </a>
                 </li>
                 <li class="list">
-                    <a href="#" class="nav-link">
+                    <a href="<?php echo site_url('Competence2') ?>" class="nav-link">
                         <i class="bx bx-medal icon"></i>
                         <span class="link"> Compétence 2 </span>
                     </a>
                 </li>
                 <li class="list">
-                    <a href="#" class="nav-link">
+                    <a href="<?php echo site_url('Competence3') ?>" class="nav-link">
                         <i class="bx bx-medal icon"></i>
                         <span class="link"> Compétence 3 </span>
                     </a>
@@ -67,5 +67,3 @@
     
     <section class="overlay"></section>
     <script src="<?= base_url('/assets/js/main.js') ?>"></script>
-</body>
-</html>
